@@ -1,0 +1,38 @@
+.posMain {
+    padding: 15px 15px;
+}
+.TabGroup{
+    margin-bottom: 20px;
+    :global{
+        .ant-radio-button-wrapper{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+.summaryTable{
+    width: 100%;
+    overflow: auto;
+    background: #FFF;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 0 0 10px rgba($color: #666, $alpha: .2);
+    .summaryTitle{
+        background: #f2f2f2;
+        margin-bottom: 5px;
+        padding: 10px;
+        color: #666;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    :global{
+        .ant-table-cell{
+            color: #333;
+        }
+        .ant-table-tbody tr td {
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+}
